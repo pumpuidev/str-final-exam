@@ -1,0 +1,57 @@
+.row {
+  .col-12 {
+    h2 {
+      text-align: center;
+      font-size: 50px;
+      padding-top: 20px;
+      padding-bottom: 25px;
+      font-family: Garamond;
+    }
+    .col-md-4 {
+      .form-control {
+        position: relative;
+        left: 350px;
+      }
+
+    }
+    .table {
+      padding-top: 20px;
+      font-family: Garamond ;
+      color: rgb(117, 27, 27);
+      font-weight: bold;
+      th {
+        cursor: pointer;
+        background-image: linear-gradient(
+          to right,
+          #ffa500,
+          magenta
+        );
+      }
+      .btn.btn-info {
+        background-color: rgb(246, 38, 159);
+        color: orange;
+        border: none;
+      }
+      .btn.btn-info:hover {
+        background-color: rgb(243, 106, 186);
+      }
+      .btn.btn-danger {
+        color: orange;
+        border: none;
+      }
+      .btn.btn-danger:hover {
+        background-color: rgb(251, 86, 86);
+      }
+    }
+    .btn.btn-primary {
+      background-image: linear-gradient(
+          to right,
+          #ffa500,
+          magenta
+        );
+        border: none;
+        border-radius: 50px 20px;;
+        color: brown;
+    }
+  }
+}
